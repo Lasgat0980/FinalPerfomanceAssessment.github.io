@@ -95,7 +95,7 @@ article {
   flex: 1 1 calc(50% - 2rem); min-width: 300px; 
 }
 @media (min-width: 1025px) {article { flex: 1 1 calc(33% - 2rem) } }
-@keyframes fadeIn { from {opacity: 1; } }
+@keyframes fadeIn { from {opacity: 0; } to {opacity: 1; } }
 body{ animation: fadeIn 1s ease-in-out}
                            
   
