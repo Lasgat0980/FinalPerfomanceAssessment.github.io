@@ -90,9 +90,9 @@ form button:hover {
   background-color: #45a049;
 }
 
-@media (min-width: 768px) { main (flex-direction: row; flex-wrap: wrap; justify-content: space-around;} 
+@media (min-width: 768px) { main (flex-direction: row; flex-wrap: wrap; justify-content: space-around; } 
 article {
-  flex: 1 1 calc(50% - 2rem); min-width: 300px; 
+  flex: 1 1 calc(50% - 2rem); min-width: 300px; }
 }
 @media (min-width: 1025px) {article { flex: 1 1 calc(33% - 2rem) } }
 @keyframes fadeIn { from {opacity: 0; } to {opacity: 1; } }
